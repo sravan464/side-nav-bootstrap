@@ -4,6 +4,7 @@
 }
 
 /*Set up the columns with a 100% height, body color and overflow scroll*/
+
 .left {
   height: 100%;
   overflow-y: scroll;
@@ -29,27 +30,18 @@ a:focus {
 #sidebar {
   min-width: 250px;
   max-width: 250px;
-  background: #7386d5;
+  background: #019d78;
   color: #fff;
   transition: all 0.3s;
-}
-#sidebar.active {
-  margin-left: -250px;
 }
 
 #sidebar .sidebar-header {
   padding: 20px;
-  background: #6d7fcc;
+  background: #005944;
 }
 #sidebar ul.components {
   padding: 20px 0px;
   border-bottom: 1px solid #47748b;
-}
-
-#sidebar ul p {
-  padding: 10px;
-  font-size: 1.1em;
-  display: block;
 }
 
 #sidebar ul li a {
@@ -58,36 +50,8 @@ a:focus {
   display: block;
 }
 #sidebar ul li a:hover {
-  color: #7386d5;
+  color: #019d78;
   background: #fff;
-}
-
-#sidebar ul li.active > a,
-a[aria-expanded='true'] {
-  color: #fff;
-  background: #6d7fcc;
-}
-a[data-toggle='collapse'] {
-  position: relative;
-}
-.dropdown-toggle::after {
-  display: block;
-  position: absolute;
-  top: 50%;
-  right: 20px;
-  transform: translateY(-50%);
-}
-
-ul ul a {
-  font-size: 0.9em !important;
-  padding-left: 30px !important;
-  background: #6d7fcc;
-}
-
-a.article,
-a.article:hover {
-  background: #6d7fcc !important;
-  color: #fff !important;
 }
 
 @media (maz-width: 768px) {
